@@ -1,11 +1,11 @@
-package matheus.projetos.BibliotecaGestao.usuario;
+package matheus.projetos.BibliotecaGestao.usuario.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import matheus.projetos.BibliotecaGestao.emprestimo.Emprestimo;
+import matheus.projetos.BibliotecaGestao.emprestimo.entity.Emprestimo;
 
 import java.util.List;
 

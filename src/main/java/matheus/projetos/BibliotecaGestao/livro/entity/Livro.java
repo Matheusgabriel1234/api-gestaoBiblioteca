@@ -1,14 +1,12 @@
-package matheus.projetos.BibliotecaGestao.livro;
+package matheus.projetos.BibliotecaGestao.livro.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import matheus.projetos.BibliotecaGestao.emprestimo.Emprestimo;
-import org.apache.catalina.LifecycleState;
+import matheus.projetos.BibliotecaGestao.emprestimo.entity.Emprestimo;
 
-import java.time.LocalDate;
 import java.util.List;
 
 @NoArgsConstructor
@@ -22,7 +20,7 @@ public class Livro {
     private Long id;
     private String author;
     private String title;
-    private int anoPublicacao;
+    private Integer anoPublicacao;
     private String isbn;
     @OneToMany(mappedBy = "livro")
     private List<Emprestimo> emprestimos;

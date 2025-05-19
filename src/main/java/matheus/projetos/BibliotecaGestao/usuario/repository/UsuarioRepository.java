@@ -1,5 +1,6 @@
-package matheus.projetos.BibliotecaGestao.usuario;
+package matheus.projetos.BibliotecaGestao.usuario.repository;
 
+import matheus.projetos.BibliotecaGestao.usuario.entity.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

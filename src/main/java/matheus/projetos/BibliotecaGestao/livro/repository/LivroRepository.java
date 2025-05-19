@@ -1,5 +1,6 @@
-package matheus.projetos.BibliotecaGestao.livro;
+package matheus.projetos.BibliotecaGestao.livro.repository;
 
+import matheus.projetos.BibliotecaGestao.livro.entity.Livro;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
